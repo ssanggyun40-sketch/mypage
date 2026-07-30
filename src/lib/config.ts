@@ -76,15 +76,14 @@ export const siteConfig = {
   values: parseJSON<ValueItem[]>(process.env.NEXT_PUBLIC_VALUES, DEMO_VALUES),
   highlights: parseJSON<HighlightItem[]>(process.env.NEXT_PUBLIC_HIGHLIGHTS, DEMO_HIGHLIGHTS),
   galleryImages: parseJSON<string[]>(process.env.NEXT_PUBLIC_GALLERY_IMAGES, [
-  `${_basePath}/images/1785403151113-upload.webp`,
-  `${_basePath}/images/1785402344992-upload.webp`,
-  `${_basePath}/images/1785402860490-upload.webp`,
-  `${_basePath}/images/1785403209001-upload.webp`,
-  `${_basePath}/images/1785402419937-upload.webp`,
-  `${_basePath}/images/1785403270570-upload.webp`,
-  `${_basePath}/images/1785402580586-upload.webp`,
-  `${_basePath}/images/1785402619646-upload.webp`,
-  `${_basePath}/images/1785403528664-upload.webp`
+  `${_basePath}/images/1785403630927-upload.webp`,
+  `${_basePath}/images/1785403674852-upload.webp`,
+  `${_basePath}/images/1785403748189-upload.webp`,
+  `${_basePath}/images/1785403784325-upload.webp`,
+  `${_basePath}/images/1785403800673-upload.webp`,
+  `${_basePath}/images/1785403836632-upload.webp`,
+  `${_basePath}/images/1785403918451-upload.webp`,
+  `${_basePath}/images/1785403960949-upload.webp`
 ]),
   email: process.env.NEXT_PUBLIC_EMAIL || 'hello@jiwonlee.kr',
   socials: parseJSON<SocialItem[]>(process.env.NEXT_PUBLIC_SOCIALS, [
