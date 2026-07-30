@@ -24,21 +24,21 @@ const DEMO_VALUES: ValueItem[] = [
     emoji: '✦',
     title: '진정성',
     titleEn: 'Authenticity',
-    desc: '광고처럼 느껴지지 않는 콘텐츠. 내가 직접 써봤거나 뿿는 것만 이야기합니다.',
+    desc: '.진정성은 **말보다 행동으로 꾸준히 보여주는 진심**입니다.',
   },
   {
     emoji: '✦',
     title: '일관성',
-    titleEn: 'Consistency',
-    desc: '2019년부터 한 주도 거르지 않은 뉴스레터. 꾸준함이 신뢰를 만든다고 생각해요.',
+    titleEn: 'Since 2023, I have been steadily running a blog and YouTube channel.',
+    desc: '2023년부터지금까지 꾸준하게 블로그,유튜브를운영하고있읍니다.',
     descEn: 'A newsletter published every single week since 2019. I believe consistency builds trust.',
   },
   {
     emoji: '✦',
     title: '호기심',
     titleEn: 'Curiosity',
-    desc: '새로운 플랫폼, 새로운 포맷, 새로운 사람. 배움을 멈추지 않는 것이 제 원동력입니다.',
-    descEn: 'New platforms, new formats, new people — never stopping learning is what keeps me going.',
+    desc: '새로운 미래를 꿈꾸는 인생을 살아 갑니다',
+    descEn: 'I live a life dreaming of a new future',
   }
 ];
 
@@ -71,8 +71,8 @@ export const siteConfig = {
   storyEn:
     process.env.NEXT_PUBLIC_STORY_EN ||
     'Hello, I am someone who runs a blog and YouTube.',
-  storyTitle: process.env.NEXT_PUBLIC_STORY_TITLE || '',
-  storyTitleEn: process.env.NEXT_PUBLIC_STORY_TITLE_EN || '',
+  storyTitle: process.env.NEXT_PUBLIC_STORY_TITLE || '블로그,유튜브 운영',
+  storyTitleEn: process.env.NEXT_PUBLIC_STORY_TITLE_EN || 'Manage a blog and YouTube channel',
   values: parseJSON<ValueItem[]>(process.env.NEXT_PUBLIC_VALUES, DEMO_VALUES),
   highlights: parseJSON<HighlightItem[]>(process.env.NEXT_PUBLIC_HIGHLIGHTS, DEMO_HIGHLIGHTS),
   galleryImages: parseJSON<string[]>(process.env.NEXT_PUBLIC_GALLERY_IMAGES, [
