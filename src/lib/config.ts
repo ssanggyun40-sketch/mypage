@@ -76,12 +76,15 @@ export const siteConfig = {
   values: parseJSON<ValueItem[]>(process.env.NEXT_PUBLIC_VALUES, DEMO_VALUES),
   highlights: parseJSON<HighlightItem[]>(process.env.NEXT_PUBLIC_HIGHLIGHTS, DEMO_HIGHLIGHTS),
   galleryImages: parseJSON<string[]>(process.env.NEXT_PUBLIC_GALLERY_IMAGES, [
-  'https://plus.unsplash.com/premium_photo-1679079456083-9f288e224e96?w=600&q=85&auto=format&fit=crop&crop=faces',
-  'https://images.unsplash.com/photo-1541823709867-1b206113eafd?w=600&h=900&q=85&auto=format&fit=crop&crop=faces',
-  'https://images.unsplash.com/photo-1602492665157-639323eadd31?w=600&q=85&auto=format&fit=crop',
-  'https://plus.unsplash.com/premium_photo-1661407583811-f39558a8e0cd?w=600&h=400&q=85&auto=format&fit=crop',
-  'https://plus.unsplash.com/premium_photo-1661412988741-45fcf3074878?w=600&h=800&q=85&auto=format&fit=crop',
-  'https://plus.unsplash.com/premium_photo-1664476946415-19cdad721c53?w=600&q=85&auto=format&fit=crop&crop=faces'
+  `${_basePath}/images/1785403151113-upload.webp`,
+  `${_basePath}/images/1785402344992-upload.webp`,
+  `${_basePath}/images/1785402860490-upload.webp`,
+  `${_basePath}/images/1785403209001-upload.webp`,
+  `${_basePath}/images/1785402419937-upload.webp`,
+  `${_basePath}/images/1785403270570-upload.webp`,
+  `${_basePath}/images/1785402580586-upload.webp`,
+  `${_basePath}/images/1785402619646-upload.webp`,
+  `${_basePath}/images/1785403528664-upload.webp`
 ]),
   email: process.env.NEXT_PUBLIC_EMAIL || 'hello@jiwonlee.kr',
   socials: parseJSON<SocialItem[]>(process.env.NEXT_PUBLIC_SOCIALS, [
